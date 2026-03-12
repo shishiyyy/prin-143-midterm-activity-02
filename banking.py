@@ -5,7 +5,7 @@ class Banking:
     def __init__(self, *, bankName: str, accountHolder: str, acoountNumber: str, balance: str, branchLocation: str) -> None:
         self._bankName = bankName
         self._accountHolder = accountHolder
-        self._acoountNumber = acoountNumber
+        self._acountNumber = acoountNumber
         self._balance = balance
         self._branchLocation = branchLocation
 
@@ -27,4 +27,5 @@ class Banking:
 
     @property
     def branchLocation(self) -> str:
+
         return self._branchLocation
